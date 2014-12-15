@@ -1,0 +1,2 @@
+
+Fake rate from pileup jets versus hard-scatter jet efficiency curves for JVF, corrJVF, R<sub>pT</sub>, and JVT. The widely used JVF  working points with cut values 0.25 and 0.5 are indicated with red and blue stars. 

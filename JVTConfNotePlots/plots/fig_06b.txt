@@ -1,0 +1,1 @@
+N<sub>Vtx</sub>  dependence of the pileup jet fake rate when imposing cuts on JVT  (blue) and JVF  (violet) such that the inclusive hard-scatter jet efficiency is 90%.

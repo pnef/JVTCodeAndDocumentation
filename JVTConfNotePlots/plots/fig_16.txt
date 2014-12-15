@@ -1,0 +1,1 @@
+Comparison of the hard-scatter jet efficiency of a JVT &gt;0.2 requirement between the Z (&mu;&mu;)+jets samples generated with Sherpa  and PowHeg as a function of p<sub>T</sub> <sup>ref</sup>.

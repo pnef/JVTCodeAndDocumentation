@@ -1,0 +1,1 @@
+Event-by-event jet-veto efficiency in VBF H to 4&#8467; events as a function of N<sub>Vtx</sub>  and jet p<sub>T</sub> threshold before and after a  JVT &gt;0.7 criterion has been applied.

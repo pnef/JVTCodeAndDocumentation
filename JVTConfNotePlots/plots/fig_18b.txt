@@ -1,0 +1,2 @@
+
+The change in the jet multiplicity with &mu; as a function of &mu; for the same event selection. < N<sub>j</sub> > increases with &mu; at a &mu; dependent rate that is different for data and simulation. After imposing a JVT &gt;0.7 requirement, the number of jets is observed to be independent of &mu;.

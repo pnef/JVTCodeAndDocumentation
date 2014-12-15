@@ -1,0 +1,1 @@
+The fake rate from pileup jets versus hard-scatter jet efficiency curves for JVT  separating light-quark, gluon and b-quark initiated jets.

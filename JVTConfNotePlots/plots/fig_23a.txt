@@ -1,0 +1,1 @@
+Fake-rate versus efficiency curves for  corrJVF  for three different track-to-vertex associations: the ``|&Delta; z &times; sin&theta;| &lt; 1 mm'' criteria labeled ``Trk-to-Vtx 1'', ``Step 1'' labelled ``Trk-to-Vtx 2'' and the full new procedure ``Step 1&2'' labelled ``Trk-to-Vtx 3''.

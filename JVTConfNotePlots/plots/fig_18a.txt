@@ -1,0 +1,1 @@
+The jet multiplicity < N<sub>j</sub> > for jets with p<sub>T</sub> &gt;20 GeV and |&eta;|&lt;2.4 as a function of the average number of interactions per bunch crossing &mu; in Z (&mu;&mu;)+jets events. After imposing a JVT &gt;0.7 requirement, the number of jets is observed to be independent of &mu;.

@@ -1,0 +1,1 @@
+Distributions of corrJVF  using the event selection enhanced in pileup jets. The pileup jet contribution in the simulation it fit to the data, while keeping the hard-scatter jets at their nominal normalization.

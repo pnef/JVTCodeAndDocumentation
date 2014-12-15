@@ -1,0 +1,1 @@
+Efficiency of a  JVT &gt;0.7 requirement as a function of jet &eta; for 30 &lt; p<sub>T</sub> <sup>ref</sup> 40 &lt; GeV.

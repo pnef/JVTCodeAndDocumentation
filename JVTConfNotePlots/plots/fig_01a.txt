@@ -1,0 +1,1 @@
+The JVF distribution for hard-scatter jets in simulated dijet events for different bins in truth vertex multiplicity N<sub>Vtx</sub><sup>truth</sup> .
