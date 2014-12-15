@@ -1,0 +1,83 @@
+
+% % counters
+\newcounter{fixme}
+\newcommand{\fixme}[1]{{\it{\textbf{Fixme~\arabic{fixme}~(#1)}}}\addtocounter{fixme}{1}}
+% \newcounter{idea}
+% \newcommand{\idea}[1]{{\it{\textbf{\textcolor{Cerulean}{Idea~\Roman{idea}~(#1)}}}\\}\addtocounter{idea}{1}}
+% 
+% i.e. and so on
+\newcommand {\ie}{\mbox{i.e.}\xspace}     %i.e.
+\newcommand {\vs}{\mbox{vs.}\xspace}     %i.e.
+\newcommand {\hc}{\mbox{h.c.}\xspace}     %i.e.
+\newcommand {\eg}{\mbox{e.g.}\xspace}     %e.g.
+
+% misc
+\newcommand{\bfit}[1]{\textit{\textbf{#1}}}
+\newcommand{\Eqref}[1]{Eqn.~\eqref{#1}}
+\newcommand{\Figref}[1]{Fig.~\ref{#1}}
+\newcommand{\beq}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\sign}{\ensuremath{\text{sign}\xspace}}
+
+% particles 
+\renewcommand{\Zboson}{\ensuremath{Z}\xspace}
+\newcommand{\Higgs}{\ensuremath{H}\xspace}
+\renewcommand{\Wboson}{\ensuremath{W}\xspace}
+\newcommand{\proton}{\ensuremath{{\mathrm{p}}\xspace}}
+\newcommand{\pq}{\ensuremath{{\mathrm{q}}\xspace}}
+\newcommand{\pb}{\ensuremath{{\mathrm{b}}\xspace}}
+\newcommand{\pbbar}{\ensuremath{{\mathrm{\bar{b}}}\xspace}}
+\renewcommand{\ttbar}{\ensuremath{{\mathrm{t\bar{t}}}}\xspace}
+
+%units
+\newcommand{\unit}[1]{\ensuremath{\,\text{#1}}\xspace}
+\newcommand{\Unit}[1]{\ensuremath{\,\rm{$#1$}}\xspace}
+\newcommand{\Lumino}{20.3\unit{\ifb}}
+\renewcommand{\GeV}{\ensuremath{\,\text{Ge\hspace{-.08em}V}}\xspace}
+\renewcommand{\TeV}{\ensuremath{\,\text{Te\hspace{-.08em}V}}\xspace}
+
+% subequations
+\newcommand{\eqn}[2]{\begin{subequations}\label{#1} #2 \end{subequations}}
+
+% kinematic variables
+\newcommand{\MTtwo}{\ensuremath{M_\mathrm{T2}}\xspace}
+\newcommand{\JVF}{\ensuremath{{\rm JVF}}\xspace}
+\newcommand{\JVT}{\ensuremath{{\rm JVT}}\xspace}
+\newcommand{\cJVF}{\ensuremath{{\rm corrJVF}}\xspace}
+\newcommand{\RpT}{\ensuremath{R_\mathrm{pT}}\xspace}
+\newcommand{\PURpT}{\ensuremath{R_\mathrm{pT}^{\mathrm{PU}}}\xspace}
+\newcommand{\NPV}{\ensuremath{N_\mathrm{Vtx}}\xspace}
+\newcommand{\NPVtruth}{\ensuremath{N_\mathrm{Vtx}^{\rm truth}}\xspace}
+\renewcommand{\pT}{\ensuremath{p_{\mathrm{T}}}\xspace}
+\newcommand{\nPUtrk}{\ensuremath{n_\mathrm{trk}^\mathrm{PU}}\xspace}
+ 
+% generators
+\newcommand{\HERWIG}         {\mbox{\small\textsc{HERWIG}}}
+\newcommand{\HDECAY}         {\mbox{\small\textsc{HDECAY}}}
+\newcommand{\ggWWp}         {\mbox{\small\textsc{GG2WW}}}
+\newcommand{\DIPHOX}         {\mbox{\small\textsc{DIPHOX}}}
+\newcommand{\AR}         {\mbox{\small\textsc{ARIADNE}}}
+\newcommand{\ALPGEN}         {\mbox{\small\textsc{Alpgen}}}
+\newcommand{\PY}         {\mbox{\small\textsc{PYTHIA}}}
+\newcommand{\JSv}        {\mbox{\small\textsc{JETSET\ 7.405}}}
+\newcommand{\HWo}        {\mbox{\small\textsc{HERWIG\ 5.8}}}
+\newcommand{\HWn}        {\mbox{\small\textsc{HERWIG\ 5.9}}}
+\newcommand{\ARv}        {\mbox{\small\textsc{ARIADNE\ 4.05}}}
+\newcommand{\PYv}        {\mbox{\small\textsc{PYTHIA\ 5.7}}}
+\newcommand{\MADGRAPH}   {\textsc{MadGraph}\xspace}
+\newcommand{\Sherpa}   {\textsc{Sherpa}\xspace}
+\newcommand{\MADGRAPHv}   {\textsc{MadGraph}\ 5v1.1\xspace}
+\newcommand{\BRIDGE}   {\textsc{Bridge}\xspace}
+\newcommand{\PYTHIA}    {\textsc{Pythia}\xspace}
+\newcommand{\PYTHIAeight}    {\textsc{Pythia8}\xspace}
+\newcommand{\DELPHES}   {\textsc{Delphes}\xspace}
+\newcommand{\GEANTfour} {{\textsc{geant4}}\xspace}
+\newcommand{\JetPhox}    {\textsc{JetPhox\ 1.3.0}\xspace}
+\newcommand{\Powheg}    {\textsc{PowHeg}\xspace}
+\newcommand{\Fastjet}   {\textsc{Fastjet\ 2.4.3}\xspace}
+
+% other programs
+\newcommand{\SOFTSUSY}         {\mbox{\small\textsc{SoftSusy}}\xspace}
+\newcommand{\PROSPINO}         {\mbox{\small\textsc{Prospino}}\xspace}
+
+\newcommand{\ATLAS}{{\textsc ATLAS}\xspace}
