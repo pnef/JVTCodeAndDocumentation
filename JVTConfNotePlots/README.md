@@ -11,7 +11,8 @@ To run this, you need to have the following setup:
 
 Here's an example:
 ```
-python Fig01a.py
+$ python Fig01a.py
 ```
 produces the figure 
+
 ![Fig 1a] (https://raw.githubusercontent.com/pnef/JVTCodeAndDocumentation/master/JVTConfNotePlots/plots/fig_01a.png)
