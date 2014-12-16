@@ -113,7 +113,8 @@ if __name__ == "__main__":
     #++++++ USER INPUT +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     global tfileData, tfileMC, tree, jetlabel,ptlabel,lumiLabel, MClabel, ScaleFact, JetSelection, plotter
 
-    path = "/Users/pascal/Data/ATLAS/ProofAnaOutput/PileUpStudies/PUID/"
+    #path = "/Users/pascal/Data/ATLAS/ProofAnaOutput/PileUpStudies/PUID/"
+    path = "/atlas/output/pnef/"
     tfileData    = path+"2014021x.PileUpStudies_DiLeptonSelection_rev351830.MuonsSMWZPeriodABCDEGHIJL.jetmet2012pileupcustom.root"
     tfileMC_pow  = path+"20140214.22.39_PileUpStudies_DiLeptonSelection_rev351830.Zmumu_PowhegPythia8_MC12_COMMON.jetmet2012pileupcustom.root"
     tfileMC      = path+"20140305.08.12_PileUpStudies_DiLeptonSelection_351830.Zmumu_MC12_Sherpa_COMMON.jetmet2012pileupcustom.root"

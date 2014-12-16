@@ -40,7 +40,8 @@ if __name__ == "__main__":
 
     #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     #++++++ USER INPUT +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-    path = "/Users/pascal/Data/ATLAS/ProofAnaOutput/PileUpStudies/PUID/skimmed/"
+    #path = "/Users/pascal/Data/ATLAS/ProofAnaOutput/PileUpStudies/PUID/skimmed/"
+    path = "/atlas/output/pnef/"
     fT_z0      =path+"skimmedPt20to50Eta2p4.20140204.19.26_PileUpStudies_rev349447.PythJ1and2mc12aJETMET.jetmet2012pileupcustom.root" # trk sel0 (JetTree0), dzsinTheta 1mm requirement, no btrack recovery
     fT_vtx     =path+"skimmedPt20to50Eta2p4.20140204.15.11_PileUpStudies_rev349439.PythJ1and2mc12aJETMET.jetmet2012pileupcustom.root" # trk sel0 (JetTree0), TrkFromVertex, btrack recovery 3mm 
     fT_vtx_nob = path+"skimmed_Jpt20to50Eta2p4.20140128.16.47_PileUpStudies_rev348911.PythJ1and2mc12aJETMET.jetmet2012pileupcustom.root"  # trk sel (JetTree), TrkFromVertex

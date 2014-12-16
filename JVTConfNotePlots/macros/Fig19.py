@@ -34,7 +34,8 @@ if __name__ == "__main__":
 
     #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     #++++++ USER INPUT +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-    path = "/Users/pascal/Data/ATLAS/ProofAnaOutput/PileUpStudies/PUID/"
+    #path = "/Users/pascal/Data/ATLAS/ProofAnaOutput/PileUpStudies/PUID/"
+    path = "/atlas/output/pnef/"
     tfileData = path+"20140211.16.32_PileUpStudies_DiLeptonSelection_rev351611.VBFH125_ZZ4lep_PowhegPythia8MC12_COMMON.jetmet2012pileupcustom.root"
 
     # labels 
