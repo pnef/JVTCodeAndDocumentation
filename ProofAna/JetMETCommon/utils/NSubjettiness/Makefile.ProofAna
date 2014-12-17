@@ -1,0 +1,38 @@
+# fastjet ProofAna makefile wrapper
+
+#DEPENDS fastjet
+
+
+INCLUDES += -Iutils/NSubjettiness
+INCLUDES += -Iutils/NSubjettiness/include
+
+NSUBFILE := $(OUTPUTDIR)/libNSub.so
+
+DEPS += $(NSUBFILE)
+LOADS += if (gSystem->Load(\"$(NSUBFILE)\") == -1) return -1;
+CLEANS += nsubclean
+
+TARGET=NSub
+
+INCDIR=utils/NSubjettiness/include
+SRCDIR=utils/NSubjettiness/src
+TARGETSRC=$(SRCDIR)/Njettiness.cc
+TARGETO =utils/NSubjettiness/$(TARGET).o
+TARGETSO = lib$(TARGET).so
+
+
+
+
+# Rule to compile qgTag
+$(NSUBFILE) :
+	@echo "Compiling NSub package"
+	@echo "$(CXXFLAGS) $(SOFLAGS)"
+	@$(CXX) $(CXXFLAGS) -c $(TARGETSRC) -o $(TARGETO) -I$(INCLUDES)
+	@$(LD) $(CXXFLAGS) $(SOFLAGS) $(LINKLIBS) $(EXTRALDFLAGS) $(LDFLAGS) $(TARGETO)	-o $(TARGETSO) -I$(INCLUDES)
+	@mv $(TARGETSO) ./lib
+
+# Cleaning command
+nsubclean:
+	@rm -f h $(TARGETO)
+	@rm -f $(TARGETSO)
+

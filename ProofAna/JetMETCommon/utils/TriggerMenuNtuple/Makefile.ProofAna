@@ -1,0 +1,22 @@
+# TriggerMenuNtuple ProofAna makefile wrapper
+
+INCLUDES += -Iutils/TriggerMenuNtuple
+
+TMNFILE := $(OUTPUTDIR)/libTriggerMenuNtuple.so
+
+DEPS += $(TMNFILE)
+LOADS += if (gSystem->Load(\"$(TMNFILE)\") == -1) return -1;	
+CLEANS += tmnclean
+EXCLUDES += --exclude TriggerMenuNtupleDict.\* 
+
+# Rule to compile TMNUtil
+$(TMNFILE) :
+	@echo "Compiling TMNUtil package"
+	@make -C utils/TriggerMenuNtuple/cmd -f Makefile
+	@ln -sf ../utils/TriggerMenuNtuple/$(TMNFILE) lib/libTriggerMenuNtuple.so
+	
+# Cleaning command
+tmnclean:
+	@make -C utils/TriggerMenuNtuple/cmd -f Makefile cleanall
+
+

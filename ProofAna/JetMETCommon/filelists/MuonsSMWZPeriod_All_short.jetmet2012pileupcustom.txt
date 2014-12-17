@@ -1,0 +1,5 @@
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/user/mswiatlo/skimMuon2//user.mswiatlo.skimMuon2.data12_8TeV.periodH.physics_Muons.PhysCont.NTUP_SMWZ.grp14_v01_p1328_p1329.130627033101_EXT0/user.mswiatlo.002869.EXT0._00001.root
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/user/mswiatlo/skimMuon2//user.mswiatlo.skimMuon2.data12_8TeV.periodH.physics_Muons.PhysCont.NTUP_SMWZ.grp14_v01_p1328_p1329.130627033101_EXT0/user.mswiatlo.002869.EXT0._00002.root
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/user/mswiatlo/skimMuon2//user.mswiatlo.skimMuon2.data12_8TeV.periodH.physics_Muons.PhysCont.NTUP_SMWZ.grp14_v01_p1328_p1329.130627033101_EXT0/user.mswiatlo.002869.EXT0._00003.root
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/user/mswiatlo/skimMuon2//user.mswiatlo.skimMuon2.data12_8TeV.periodH.physics_Muons.PhysCont.NTUP_SMWZ.grp14_v01_p1328_p1329.130627033101_EXT0/user.mswiatlo.002869.EXT0._00004.root
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/user/mswiatlo/skimMuon2//user.mswiatlo.skimMuon2.data12_8TeV.periodH.physics_Muons.PhysCont.NTUP_SMWZ.grp14_v01_p1328_p1329.130627033101_EXT0/user.mswiatlo.002869.EXT0._00005.root

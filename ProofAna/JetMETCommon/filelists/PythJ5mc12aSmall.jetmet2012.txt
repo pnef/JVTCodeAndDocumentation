@@ -1,0 +1,10 @@
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/mc12_8TeV.147915.Pythia8_AU2CT10_jetjet_JZ5W.merge.NTUP_JETMET.e1126_s1469_s1470_r3542_r3549_p1109/NTUP_JETMET.00884152._000001.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/mc12_8TeV.147915.Pythia8_AU2CT10_jetjet_JZ5W.merge.NTUP_JETMET.e1126_s1469_s1470_r3542_r3549_p1109/NTUP_JETMET.00884152._000002.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/mc12_8TeV.147915.Pythia8_AU2CT10_jetjet_JZ5W.merge.NTUP_JETMET.e1126_s1469_s1470_r3542_r3549_p1109/NTUP_JETMET.00884152._000003.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/mc12_8TeV.147915.Pythia8_AU2CT10_jetjet_JZ5W.merge.NTUP_JETMET.e1126_s1469_s1470_r3542_r3549_p1109/NTUP_JETMET.00884152._000004.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/mc12_8TeV.147915.Pythia8_AU2CT10_jetjet_JZ5W.merge.NTUP_JETMET.e1126_s1469_s1470_r3542_r3549_p1109/NTUP_JETMET.00884152._000005.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/mc12_8TeV.147915.Pythia8_AU2CT10_jetjet_JZ5W.merge.NTUP_JETMET.e1126_s1469_s1470_r3542_r3549_p1109/NTUP_JETMET.00884152._000006.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/mc12_8TeV.147915.Pythia8_AU2CT10_jetjet_JZ5W.merge.NTUP_JETMET.e1126_s1469_s1470_r3542_r3549_p1109/NTUP_JETMET.00884152._000007.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/mc12_8TeV.147915.Pythia8_AU2CT10_jetjet_JZ5W.merge.NTUP_JETMET.e1126_s1469_s1470_r3542_r3549_p1109/NTUP_JETMET.00884152._000008.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/mc12_8TeV.147915.Pythia8_AU2CT10_jetjet_JZ5W.merge.NTUP_JETMET.e1126_s1469_s1470_r3542_r3549_p1109/NTUP_JETMET.00884152._000009.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/mc12_8TeV.147915.Pythia8_AU2CT10_jetjet_JZ5W.merge.NTUP_JETMET.e1126_s1469_s1470_r3542_r3549_p1109/NTUP_JETMET.00884152._000010.root.1
