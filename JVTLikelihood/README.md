@@ -42,6 +42,16 @@ and this will produce an output tree containing the specified variables are bran
 skimmedJpt20to50Eta2p4.20140606.13.00_PileUpStudies_rev360973.PythJ1and2mc12aJETMET.jetmet2012pileupcustom.kNN100trimmed.nPUtrkCorrJVF_RpT.JHStrkPtSumGE0_KNN100trim.weights.xml
 ```
 
+## Step 3: Construct the JVT Likelihood histogram
+
+The script [JVT_makeLikelihood.py](JVT_makeLikelihood.py) serves two purposes:
+ * produce a 2D histogram, showing the JVT value as a function of corrJVT and RpT
+ * read RpT and corrJVT from a jet-by-jet tree, compute JVT based on the previously produced histogram, and add a JVT branch to the tree. 
+ 
+
+#### producing the histogram
+Running ``` JVT_makeLikelihood.py --makeLikelihood ``` will take the specified TMVA-xml file, load the discriminator,  scan over all possible corrJVF and RpT values and compute the resulting JVT value. This is then filled in a 2D histogram, producing a plot of this kind:
+![Fig 5a] (https://raw.githubusercontent.com/pnef/JVTCodeAndDocumentation/master/JVTConfNotePlots/plots/fig_05a.png)
 
 
 
