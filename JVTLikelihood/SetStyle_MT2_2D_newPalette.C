@@ -1,6 +1,6 @@
-void SetStyle_MT2_2D(){
+void SetStyle_MT2_2D_newPalette(){
 
-  TStyle *RootStyle = new TStyle("MT2-Style-2D","MT2-Style-2D");
+  TStyle *RootStyle = new TStyle("MT2_2D_newPalette","MT2_2D_newPalette");
   
 #ifdef __CINT__
   TStyle *GloStyle;
@@ -48,35 +48,35 @@ void SetStyle_MT2_2D(){
   //Legends 
   RootStyle->SetLegendBorderSize(0);
   RootStyle->SetFillStyle(0);
-  RootStyle->SetLegendFont(42); 
+  RootStyle->SetLegendFont(132); 
 
   // Labels, Ticks, and Titles
   RootStyle->SetTitleSize  ( 0.050,"X");
   RootStyle->SetTitleOffset( 1.100,"X");
   RootStyle->SetLabelSize  ( 0.050,"X");
-  RootStyle->SetLabelFont  ( 42   ,"X");
-  RootStyle->SetTitleFont  ( 42   ,"X");
+  RootStyle->SetLabelFont  ( 132   ,"X");
+  RootStyle->SetTitleFont  ( 132   ,"X");
   RootStyle->SetNdivisions ( 505  ,"X");
 
   RootStyle->SetTitleSize  ( 0.050,"Y");
   RootStyle->SetTitleOffset( 1.500,"Y");
   RootStyle->SetLabelSize  ( 0.050,"Y");
   RootStyle->SetNdivisions ( 505  ,"Y");
-  RootStyle->SetLabelFont  ( 42   ,"Y");
-  RootStyle->SetTitleFont  ( 42   ,"Y");
+  RootStyle->SetLabelFont  ( 132   ,"Y");
+  RootStyle->SetTitleFont  ( 132   ,"Y");
 
   RootStyle->SetTitleSize  ( 0.050,"Z");
   RootStyle->SetTitleOffset( 1.500,"Z");
   RootStyle->SetLabelOffset( 0.015,"Z");
   RootStyle->SetLabelSize  ( 0.050,"Z");
-  RootStyle->SetLabelFont  ( 42   ,"Z");
-  RootStyle->SetTitleFont  ( 42   ,"Z");
+  RootStyle->SetLabelFont  ( 132   ,"Z");
+  RootStyle->SetTitleFont  ( 132   ,"Z");
   RootStyle->SetNdivisions ( 707  ,"Z");
 
 
   RootStyle->SetTitleBorderSize  (0);
   RootStyle->SetTitleFillColor  (0);  
-  RootStyle->SetTitleFont  (42);
+  RootStyle->SetTitleFont  (132);
   RootStyle->SetTitleColor  (1);
 
   RootStyle->SetLineWidth  (1);
@@ -89,12 +89,13 @@ void SetStyle_MT2_2D(){
   RootStyle->SetStatColor     (0);
   RootStyle->SetStatW         (0.5);
 
-// Default palette gradient - from Marco-Andrea / Marco Rossini
-  Double_t stops[5] = { 0.00, 0.34, 0.61, 0.84, 1.00 };
-  Double_t red  [5] = { 0.00, 0.00, 0.87, 1.00, 0.51 };
-  Double_t green[5] = { 0.00, 0.81, 1.00, 0.20, 0.00 };
-  Double_t blue [5] = { 0.51, 1.00, 0.12, 0.00, 0.00 };
-  TColor::CreateGradientColorTable(5, stops, red, green, blue, 100); 
-  RootStyle->SetNumberContours(100);
+ const int NRGBs = 4;
+ const int NCont = 999;
+ Double_t stops[NRGBs] = { 0.00, 0.33, 0.66, 1.00};
+ Double_t red[NRGBs]   = { 1.00, 1.0,  1.0,  1.00};
+ Double_t green[NRGBs] = { 1.00, 1.0,  0.16, 0.67};
+ Double_t blue[NRGBs]  = { 1.00, 0.0,  0.0,  0.00};
+ TColor::CreateGradientColorTable(NRGBs, stops, red, green, blue, NCont);
+ RootStyle->SetNumberContours(NCont);
 
 }
