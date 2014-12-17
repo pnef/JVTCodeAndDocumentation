@@ -1,0 +1,98 @@
+# JetVertexTagger standalone makefile
+ROOTBIN := $(shell root-config --bindir)
+ROOTLIB := $(shell root-config --libdir)
+ROOTINC := $(shell root-config --incdir)
+
+# --- External configuration ----------------------------------
+ifeq ($(wildcard $(ROOTSYS)/test/Makefile.arch),)
+   include $(ROOTSYS)/etc/Makefile.arch
+else
+   include $(ROOTSYS)/test/Makefile.arch
+endif
+# -------------------------------------------------------------
+# General flags
+# -------------------------------------------------------------
+PACKAGE    = JetVertexTagger
+OUTPUTDIR  = ../StandAlone
+
+# These warnings bother me, so I turn them off.
+CXXFLAGS += -DJETVERTEXTAGGER_STANDALONE
+CXXFLAGS += -DROOTCORE
+
+# add utils subdirectories if needed
+INCLUDES   += -I.. -I${ROOTINC}
+
+# Need these to avoid loading dependent libraries when ROOT starts
+LINKLIBS = -L${ROOTLIB} -lHist -lMatrix -lCore -lCint -lRIO -lNet -lHist -lGraf -lGraf3d -lGpad -lTree -lRint -lPostscript -lMatrix -lPhysics -lMathCore -lThread -pthread -lm -ldl -rdynamic
+
+# -------------------------------------------------------------
+# ROOT Cint
+# -------------------------------------------------------------
+CINT       = JetVertexTaggerCint
+LDEFFILE   = ../Root/LinkDef.h
+CINTFILE   = $(OUTPUTDIR)/JetVertexTaggerCint.cxx
+CINTOBJ    = $(patsubst %.cxx,%.o,$(CINTFILE))
+
+# -------------------------------------------------------------
+# ProofAna source
+# -------------------------------------------------------------
+# add util subdirectories if needed
+CXXLIST = ../Root/JetVertexTagger.cxx $(CINTFILE)
+HLIST   = ../JetVertexTagger/JetVertexTagger.h
+OLIST   = $(patsubst %.cxx,%.o,$(CXXLIST))
+DLIST   = $(patsubst %.h,%.d,$(HLIST))
+
+
+# -------------------------------------------------------------
+# Libraries
+# -------------------------------------------------------------
+LIBFILE  = $(OUTPUTDIR)/libJetVertexTagger.so
+
+ifeq ($(PLATFORM),macosx)
+EXTRALDFLAGS = -install_name $(LIBFILE)
+endif
+
+# get libraries of ROOT
+define ldlinksuffixROOT
+   $(addsuffix $(LDLINKSUFFIX),$(Lib)) $(shell if [ "$(findstring -Ldlink2,$(OPTIONS))" ]; then echo $(addsuffix _pkgid_$(ROOTVER),$(Lib)); fi)
+endef
+
+# -------------------------------------------------------------
+# Compilation
+# -------------------------------------------------------------
+
+default: shlib
+
+# Implicit rule to compile all classes
+%.o : %.cxx
+	@echo "Compiling $<"
+	@$(CXX) -MD $(CXXFLAGS) $(INCLUDES) -c $< -o $*.o 
+
+# Rule to make ROOTCINT output file
+$(CINTOBJ) : $(HLIST) $(LDEFFILE)
+	@echo "Running rootcint"
+	@$(ROOTBIN)/rootcint -f $(CINTFILE) -c -p  $(CXXFLAGS) $(INCLUDES) $(HLIST) $(LDEFFILE)
+	@echo "Compiling $(CINTFILE)"
+	@$(CXX) $(CXXFLAGS) $(INCLUDES) -c $(CINTFILE) -o $@
+
+rootcint : $(HLIST) $(LDEFFILE)
+	@echo "Running rootcint"
+	$(ROOTBIN)/rootcint -f $(CINTFILE) -c -p  $(CXXFLAGS) $(INCLUDES) $(HLIST) $(LDEFFILE)
+
+# Rule to combine objects into a shared library
+$(LIBFILE): $(OLIST)
+	@echo "Linking $(LIBFILE)"
+	@rm -f $(LIBFILE)
+	@$(LD) $(CXXFLAGS) $(SOFLAGS) $(LINKLIBS) $(EXTRALDFLAGS) $(OLIST) -o $(LIBFILE) 
+
+-include $(DLIST)
+
+JetVertexTaggerCint: $(CINTOBJ)
+shlib: $(LIBFILE)
+
+clean:
+	@rm -f ../*/*.o ../*/*.d
+	
+
+
+

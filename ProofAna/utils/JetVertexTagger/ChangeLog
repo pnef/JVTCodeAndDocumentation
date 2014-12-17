@@ -1,0 +1,10 @@
+2014-06-24 P. Nef: trunk
+	* initial commit of package
+2014-07-09 P. Nef: trunk
+	* adding example directory with files to test JVT installation, 
+	* adding default constructor 
+	* fiddling with Root ClassDef
+2014-08-05 P. Nef: trunk
+	* adding new likelihood data/JVTlikelihood_20140805.root 
+	  which is the one trained on the RootCore implementation 
+	  of corrJVF and RpT

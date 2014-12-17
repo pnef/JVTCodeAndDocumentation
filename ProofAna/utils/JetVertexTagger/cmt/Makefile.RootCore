@@ -1,0 +1,6 @@
+PACKAGE          = JetVertexTagger
+PACKAGE_CXXFLAGS = -DJETVERTEXTAGGER_STANDALONE
+PACKAGE_LDFLAGS  =
+PACKAGE_DEP      =
+
+include $(ROOTCOREDIR)/Makefile-common

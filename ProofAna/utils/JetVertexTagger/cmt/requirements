@@ -1,0 +1,22 @@
+
+# Install the root file
+apply_pattern declare_calib files="../share/*.root"
+
+package JetVertexTagger
+# $Id$
+
+public
+
+use AtlasPolicy         AtlasPolicy-*
+
+use AtlasROOT           AtlasROOT-*             External
+
+private
+end_private
+
+apply_tag ROOTMathLibs
+
+# Declare the library
+public
+library JetVertexTagger "../Root/*.cxx"
+apply_pattern installed_library
