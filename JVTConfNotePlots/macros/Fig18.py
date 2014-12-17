@@ -44,7 +44,7 @@ if __name__ == "__main__":
     #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     #++++++ USER INPUT +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     #path = "/Users/pascal/Data/ATLAS/ProofAnaOutput/PileUpStudies/PUID/"
-    path = "/atlas/output/pnef/"
+    path = "/atlas/local/pnef/Pileup/Data/"
     tfileData = path+"2014021x.PileUpStudies_DiLeptonSelection_rev351830.MuonsSMWZPeriodABCDEGHIJL.jetmet2012pileupcustom.root"
     tfileMC   = path+"20140305.08.12_PileUpStudies_DiLeptonSelection_351830.Zmumu_MC12_Sherpa_COMMON.jetmet2012pileupcustom.root"
 

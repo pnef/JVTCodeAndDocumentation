@@ -37,7 +37,7 @@ if __name__ == "__main__":
     #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     #++++++ USER INPUT +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     #path = "/Users/pascal/Data/ATLAS/ProofAnaOutput/PileUpStudies/PUID/TopSelection/"
-    path = "/atlas/output/pnef/"
+    path = "/atlas/local/pnef/Pileup/Data/"
     tfile           = path+"../skimmed/skimmedPt20to50Eta2p4.20140213.00.12_PileUpStudies_rev351681.PythJ1and2mc12aJETMET.jetmet2012pileupcustom.kNN20140213.root"
     tfileData       = path+"20140215_PileUpStudies_TopSelection_rev351830.MuonsSMWZPeriodABCDEGHIJL.jetmet2012pileupcustom.root"
     tfileTTbar      = path+"20140215.15.13_PileUpStudies_TopSelection_rev351830.PowhegPythia_ttbar_LeptonFilterSMWZ.jetmet2012pileupcustom.root"

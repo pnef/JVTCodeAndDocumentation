@@ -41,7 +41,7 @@ if __name__ == "__main__":
     #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     #++++++ USER INPUT +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     #path = "/Users/pascal/Data/ATLAS/ProofAnaOutput/PileUpStudies/PUID/skimmed/"
-    path = "/atlas/output/pnef/"
+    path = "/atlas/local/pnef/Pileup/Data/"
     fT   =path+"skimmedPt20to50Eta2p4.20140213.00.12_PileUpStudies_rev351681.PythJ1and2mc12aJETMET.jetmet2012pileupcustom.kNN20140213.root"
 
     #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
