@@ -11,6 +11,14 @@ This ProofAna code is used to:
 
 ## Truth Jet Matching & the definition of hard-scatter and pileup jets
 
+A matching of reco jets to truth jets is performed to label reco jets as hard-scatter, pileup or nothing. 
+The definitions are as follows:
+* hard-scatter jets: matched within delta R < 0.3 to a truth jet with pT > 10 GeV 
+* pileup jets: no truth jet with pT > 4 GeV within delta R > 0.6. 
+
+The idea / reasoning behind this definition is [here -- slide 4](https://cds.cern.ch/record/1640336/comments/attachments/get/92242/20131222_Qs_Richard.pdf)
+
+
 
 ## Jet Vertex Tagger
 
