@@ -51,8 +51,22 @@ The script [JVT_makeLikelihood.py](JVT_makeLikelihood.py) serves two purposes:
 
 #### producing the histogram
 Running ``` JVT_makeLikelihood.py --makeLikelihood ``` will take the specified TMVA-xml file, load the discriminator,  scan over all possible corrJVF and RpT values and compute the resulting JVT value. This is then filled in a 2D histogram, producing a plot of this kind:
+
 ![Fig 5a] (https://raw.githubusercontent.com/pnef/JVTCodeAndDocumentation/master/JVTConfNotePlots/plots/fig_05a.png)
 
+This will produce an output file called "kNN100trim_pt20to50_Likelihood_Histo.root" (can be configured), containing the JVT likelihood. 
+
+#### compute JVT
+Running ``` JVT_makeLikelihood.py --evaluate ``` is an easy way to evaluate JVT based on RpT and corrJVT, reading the histogram that was produced in the above step. Alternatively, the new likelihood histogram can be fed into the JVT RootCore package and used in this way. See below. 
+
+
+## Step 4: Feed the new likelihood to the JVT rootcore package. 
+
+The file kNN100trim_pt20to50_Likelihood_Histo.root produced under Step 3 can be fed to the JVT RootCore package to make the new likelihood available to "everybody". This is done by updating the file in 
+```
+jvt = new JetVertexTagger(0.2, [path-to]/JetVertexTagger/data/JVTlikelihood_20140805.root");
+```
+See [ProofAna/utils/JetVertexTagger](ProofAna/utils/JetVertexTagger) for details. 
 
 
 
