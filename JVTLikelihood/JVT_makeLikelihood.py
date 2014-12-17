@@ -23,7 +23,7 @@ if __name__ == "__main__":
     #+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     # parse arguments --------------------------------------------
     usage = """
-    usage: %prog [options] InputFile.xml
+    usage: %prog options
     	
     """
     parser = OptionParser(usage)
