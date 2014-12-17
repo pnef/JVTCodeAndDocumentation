@@ -1,43 +1,0 @@
-10
-
-dir
-336482
-svn+ssh://pnef@svn.cern.ch/reps/atlasinst/Institutes/SLAC/ProofAnaPackages/PileUpStudies/trunk
-svn+ssh://pnef@svn.cern.ch/reps/atlasinst
-
-
-
-2013-08-23T01:17:49.971057Z
-336401
-pnef
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-28d52da6-859c-4cdc-abcc-1ec3d2c02001
-
-run
-dir
-
-config
-dir
-
-eventbuilders
-dir
-
-filelists
-dir
-
-analyses
-dir
-
