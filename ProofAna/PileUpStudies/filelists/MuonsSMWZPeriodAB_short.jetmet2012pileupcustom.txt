@@ -1,0 +1,8 @@
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/NTUP_JETMET_p1344//data12_8TeV.periodA.physics_Muons.PhysCont.NTUP_SMWZ.grp14_v01_p1328_p1329/NTUP_SMWZ.01120665._000001.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/NTUP_JETMET_p1344//data12_8TeV.periodA.physics_Muons.PhysCont.NTUP_SMWZ.grp14_v01_p1328_p1329/NTUP_SMWZ.01120666._000001.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/NTUP_JETMET_p1344//data12_8TeV.periodA.physics_Muons.PhysCont.NTUP_SMWZ.grp14_v01_p1328_p1329/NTUP_SMWZ.01120667._000001.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/NTUP_JETMET_p1344//data12_8TeV.periodA.physics_Muons.PhysCont.NTUP_SMWZ.grp14_v01_p1328_p1329/NTUP_SMWZ.01120667._000002.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/NTUP_JETMET_p1344//data12_8TeV.periodA.physics_Muons.PhysCont.NTUP_SMWZ.grp14_v01_p1328_p1329/NTUP_SMWZ.01120667._000003.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/NTUP_JETMET_p1344//data12_8TeV.periodA.physics_Muons.PhysCont.NTUP_SMWZ.grp14_v01_p1328_p1329/NTUP_SMWZ.01120667._000004.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/NTUP_JETMET_p1344//data12_8TeV.periodA.physics_Muons.PhysCont.NTUP_SMWZ.grp14_v01_p1328_p1329/NTUP_SMWZ.01120667._000005.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/NTUP_JETMET_p1344//data12_8TeV.periodA.physics_Muons.PhysCont.NTUP_SMWZ.grp14_v01_p1328_p1329/NTUP_SMWZ.01120667._000006.root.1

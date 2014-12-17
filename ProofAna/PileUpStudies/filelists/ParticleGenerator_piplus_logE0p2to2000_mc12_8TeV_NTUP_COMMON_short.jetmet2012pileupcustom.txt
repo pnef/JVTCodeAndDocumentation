@@ -1,0 +1,5 @@
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/mc12_8TeV/NTUP_COMMON/e1189_s1479_s1470_r3578_r3549_p1575/mc12_8TeV.159038.ParticleGenerator_piplus_logE0p2to2000.merge.NTUP_COMMON.e1189_s1479_s1470_r3578_r3549_p1575_tid01326935_00/NTUP_COMMON.01326935._000001.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/mc12_8TeV/NTUP_COMMON/e1189_s1479_s1470_r3578_r3549_p1575/mc12_8TeV.159038.ParticleGenerator_piplus_logE0p2to2000.merge.NTUP_COMMON.e1189_s1479_s1470_r3578_r3549_p1575_tid01326935_00/NTUP_COMMON.01326935._000002.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/mc12_8TeV/NTUP_COMMON/e1189_s1479_s1470_r3578_r3549_p1575/mc12_8TeV.159038.ParticleGenerator_piplus_logE0p2to2000.merge.NTUP_COMMON.e1189_s1479_s1470_r3578_r3549_p1575_tid01326935_00/NTUP_COMMON.01326935._000003.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/mc12_8TeV/NTUP_COMMON/e1189_s1479_s1470_r3578_r3549_p1575/mc12_8TeV.159038.ParticleGenerator_piplus_logE0p2to2000.merge.NTUP_COMMON.e1189_s1479_s1470_r3578_r3549_p1575_tid01326935_00/NTUP_COMMON.01326935._000004.root.1
+

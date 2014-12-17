@@ -1,0 +1,4 @@
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/NTUP_SMWZ_p1328//mc12_8TeV.108343.McAtNloJimmy_AUET2CT10_SingleTopSChanWenu.merge.NTUP_SMWZ.e1525_s1499_s1504_r3658_r3549_p1328/NTUP_SMWZ.01110876._000001.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/NTUP_SMWZ_p1328//mc12_8TeV.108343.McAtNloJimmy_AUET2CT10_SingleTopSChanWenu.merge.NTUP_SMWZ.e1525_s1499_s1504_r3658_r3549_p1328/NTUP_SMWZ.01110876._000002.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/NTUP_SMWZ_p1328//mc12_8TeV.108343.McAtNloJimmy_AUET2CT10_SingleTopSChanWenu.merge.NTUP_SMWZ.e1525_s1499_s1504_r3658_r3549_p1328/NTUP_SMWZ.01110876._000003.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local/D3PDs/NTUP_SMWZ_p1328//mc12_8TeV.108343.McAtNloJimmy_AUET2CT10_SingleTopSChanWenu.merge.NTUP_SMWZ.e1525_s1499_s1504_r3658_r3549_p1328/NTUP_SMWZ.01110876._000004.root.1

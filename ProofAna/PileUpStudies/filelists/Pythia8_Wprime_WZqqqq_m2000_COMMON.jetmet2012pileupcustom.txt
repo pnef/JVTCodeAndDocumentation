@@ -1,0 +1,4 @@
+root://atlprf01.slac.stanford.edu:1094//atlas/local//D3PDs//mc12_8TeV.180470.Pythia8_AU2MSTW2008LO_Wprime_WZqqqq_m2000.merge.NTUP_COMMON.e1788_s1581_s1586_r3658_r3549_p1562_tid01319087_00/NTUP_COMMON.01319087._000001.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local//D3PDs//mc12_8TeV.180470.Pythia8_AU2MSTW2008LO_Wprime_WZqqqq_m2000.merge.NTUP_COMMON.e1788_s1581_s1586_r3658_r3549_p1562_tid01319087_00/NTUP_COMMON.01319087._000002.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local//D3PDs//mc12_8TeV.180470.Pythia8_AU2MSTW2008LO_Wprime_WZqqqq_m2000.merge.NTUP_COMMON.e1788_s1581_s1586_r3658_r3549_p1562_tid01319087_00/NTUP_COMMON.01319087._000003.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/local//D3PDs//mc12_8TeV.180470.Pythia8_AU2MSTW2008LO_Wprime_WZqqqq_m2000.merge.NTUP_COMMON.e1788_s1581_s1586_r3658_r3549_p1562_tid01319087_00/NTUP_COMMON.01319087._000004.root.1

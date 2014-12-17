@@ -1,0 +1,5 @@
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/data12_8TeV/NTUP_JETMET/r4065_p1278_p1344_p1345//data12_8TeV.00205071.physics_JetTauEtmiss.merge.NTUP_JETMET.r4065_p1278_p1344_p1345_tid01117828_00/NTUP_JETMET.01117828._000211.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/data12_8TeV/NTUP_JETMET/r4065_p1278_p1344_p1345//data12_8TeV.00205112.physics_JetTauEtmiss.merge.NTUP_JETMET.r4065_p1278_p1344_p1345_tid01117991_00/NTUP_JETMET.01117991._000001.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/data12_8TeV/NTUP_JETMET/r4065_p1278_p1344_p1345//data12_8TeV.00205112.physics_JetTauEtmiss.merge.NTUP_JETMET.r4065_p1278_p1344_p1345_tid01117991_00/NTUP_JETMET.01117991._000002.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/data12_8TeV/NTUP_JETMET/r4065_p1278_p1344_p1345//data12_8TeV.00205112.physics_JetTauEtmiss.merge.NTUP_JETMET.r4065_p1278_p1344_p1345_tid01117991_00/NTUP_JETMET.01117991._000003.root.1
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/data12_8TeV/NTUP_JETMET/r4065_p1278_p1344_p1345//data12_8TeV.00205112.physics_JetTauEtmiss.merge.NTUP_JETMET.r4065_p1278_p1344_p1345_tid01117991_00/NTUP_JETMET.01117991._000004.root.1

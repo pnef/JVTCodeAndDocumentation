@@ -1,0 +1,1 @@
+root://atlprf01.slac.stanford.edu:1094//atlas/dq2/data12_8TeV//NTUP_COMMON/f485_m1255_p1562//data12_8TeV.00214086.physics_Muons.merge.NTUP_COMMON.f485_m1255_p1562_tid01313138_00/NTUP_COMMON.01313138._000004.root.1
