@@ -38,10 +38,11 @@ import ROOT
 
 # Default settings for command line arguments
 DEFAULT_OUTFNAME         = "skimmedJpt20to50Eta2p4.20140606.13.00_PileUpStudies_rev360973.PythJ1and2mc12aJETMET.jetmet2012pileupcustom.kNN100trimmed.nPUtrkCorrJVF_RpT.JHStrkPtSumGE0.root"
-DEFAULT_INFNAME          = "/Users/pascal/Data/ATLAS/ProofAnaOutput/PileUpStudies/PUID/skimmed/skimmedJpt20to50Eta2p4.20140606.13.00_PileUpStudies_rev360973.PythJ1and2mc12aJETMET.jetmet2012pileupcustom.root"
+DEFAULT_INFNAME          = "/atlas/local/pnef//Pileup/Data/skimmedJpt20to50Eta2p4.20140606.13.00_PileUpStudies_rev360973.PythJ1and2mc12aJETMET.jetmet2012pileupcustom.root"
 DEFAULT_TREESIG          = "JetTree0"
 DEFAULT_TREEBKG          = "JetTree0"
-DEFAULT_METHODS          = "kNN100trim,likelihood,BDT"
+#DEFAULT_METHODS          = "kNN100trim,likelihood,BDT"
+DEFAULT_METHODS          = "kNN100trim,likelihood"
 DEFAULT_NEVENTS_TEST_S   =0
 DEFAULT_NEVENTS_TEST_B   =0
 DEFAULT_NEVENTS_TRAIN_S  =0  

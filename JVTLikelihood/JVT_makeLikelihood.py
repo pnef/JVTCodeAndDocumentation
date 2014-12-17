@@ -38,16 +38,14 @@ if __name__ == "__main__":
 
     
     #++++++++++++++++ END INPUT ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-    xmlfilepath            = "/atlas/local/pnef/Pileup/TMVA-xml/"
-    xmlfile                = xmlfilepath+"skimmedPt20to50Eta2p4.20140213.00.12_PileUpStudies_rev351681.PythJ1and2mc12aJETMET.jetmet2012pileupcustom.kNN100.nPUtrkCorrJVF_RpT.JHStrkPtSumGE0_KNN100trim.weights.xml"
+    xmlfilepath            = "weights/"
+    xmlfile                = xmlfilepath+"skimmedJpt20to50Eta2p4.20140606.13.00_PileUpStudies_rev360973.PythJ1and2mc12aJETMET.jetmet2012pileupcustom.kNN100trimmed.nPUtrkCorrJVF_RpT.JHStrkPtSumGE0_KNN100trim.weights.xml"
     LikelihoodHistoFile    = "kNN100trim_pt20to50_Likelihood_Histo.root" 
     LikelihoodHistoName    = "kNN100trim_pt20to50_Likelihood" 
-    LikelihoodVarX         = "JnPUTrkCorrJVF"
-    LikelihoodVarY         = "JHSPVtrkSumOverPt"
     EvalVarName            = "kNN100trim_pt20to50_Likelihood"
     TMVAMethodName         = "KNN100trim"
-    VarListNames           = ["JnPUTrkCorrJVF", "JHSPVtrkSumOverPt"]
-    SpectListNames         = ["NPV","Mu", "Jpt", "Jeta", "JisPU", "JisHS", "Weight", "VtxDzTruth", "Jtruthpt", "JJVF", "JCorrPUtrkPtSumOverPt", "nPUTracks", "JHStrkPtSum" ]
+    VarListNames           = ["corrJVF_RootCore", "RpT_RootCore"]
+    SpectListNames         = ["NPV","Mu", "Jpt", "Jeta", "JisPU", "JisHS", "Weight", "VtxDzTruth", "Jtruthpt", "JJVF"  ]
     LikelihoodHistoNbins   = [101,       101]
     LikelihoodHistoAxisMins= [-0.005, -0.005]
     LikelihoodHistoAxisMaxs= [1.005,   1.005]
@@ -98,8 +96,8 @@ if __name__ == "__main__":
         newBranch = tree.Branch(EvalVarName, newVar, EvalVarName+"/F")
 
         # set branch address
-        tree.SetBranchAddress("JHSPVtrkSumOverPt",JHSPVtrkSumOverPt);
-        tree.SetBranchAddress("JnPUTrkCorrJVF"   ,JnPUTrkCorrJVF);
+        tree.SetBranchAddress("RpT_RootCore",       JHSPVtrkSumOverPt);
+        tree.SetBranchAddress("corrJVF_RootCore"   ,JnPUTrkCorrJVF);
 
         # loop over entries
         nentries = tree.GetEntries();
