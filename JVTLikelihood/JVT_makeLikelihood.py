@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
     
     #++++++++++++++++ END INPUT ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-    xmlfilepath            = "/Users/pascal/Data/ATLAS/ProofAnaOutput/PileUpStudies/TMVA/xml-files/"
+    xmlfilepath            = "/atlas/local/pnef/Pileup/TMVA-xml/"
     xmlfile                = xmlfilepath+"skimmedPt20to50Eta2p4.20140213.00.12_PileUpStudies_rev351681.PythJ1and2mc12aJETMET.jetmet2012pileupcustom.kNN100.nPUtrkCorrJVF_RpT.JHStrkPtSumGE0_KNN100trim.weights.xml"
     LikelihoodHistoFile    = "kNN100trim_pt20to50_Likelihood_Histo.root" 
     LikelihoodHistoName    = "kNN100trim_pt20to50_Likelihood" 
@@ -61,8 +61,6 @@ if __name__ == "__main__":
 
     # labels 
     MClabel            = "Pythia8 dijets (2#rightarrow2)"
-    #MClabel            = "Powheg Z#rightarrow #mu#mu"
-    #funkylabel         = "Z p_{T} > 30 GeV"
     funkylabel         = ""
     jetlabel           = "Anti-k_{t} LCW+JES R=0.4";
     etalabel           = "|#eta| < 2.4";
