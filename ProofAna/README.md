@@ -14,7 +14,7 @@ This ProofAna code is used to:
 
 ## Jet Vertex Tagger
 
-The JetVertexTagger RootCore package is [here](ProofAna/utils/JetVertexTagger). This also containes Standalone installation instructions. The ATLAS JVT twiki for run-I is [here](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/JetVertexTagger).
+The JetVertexTagger RootCore package is [here](utils/JetVertexTagger). This also containes Standalone installation instructions. The ATLAS JVT twiki for run-I is [here](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/JetVertexTagger).
 
 ### Usage within ProofAna
 
