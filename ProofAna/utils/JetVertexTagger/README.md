@@ -12,16 +12,16 @@ The complete JVT documentation can be found under ATLAS-CONF-2014-018.
 
 The ATLAS internal twiki page is here: [JVT Twiki](https://twiki.cern.ch/twiki/bin/viewauth/AtlasProtected/JetVertexTagger)
 
-# Usage Instructions
+## Usage Instructions
 
-## Package and Tag For standalone, Rootcore and Athena analyses:
+### Package and Tag For standalone, Rootcore and Athena analyses:
 ```
 svn co $SVNOFF/Reconstruction/Jet/JetAnalysisTools/JetVertexTagger/tags/JetVertexTagger-00-00-01 JetVertexTagger
 ```
 
 The code is Standalone/athena/RootCore compatible.
 
-## To compile it Standalone:
+### To compile it Standalone:
 ```
 cd Reconstruction/Jet/JetAnalysisTools/JVFUncertaintyTool/cmt
 cmt make -f Makefile.Standalone
@@ -29,9 +29,9 @@ cmt make -f Makefile.Standalone
 
 It is then possible to link the compiled .so to your standalone executable.
 
-## How to use the tool?
+### How to use the tool?
 
-### In the header file
+#### In the header file
 Include the header file, initializing the JetVertexTagger
 
 ```
@@ -40,21 +40,21 @@ Include the header file, initializing the JetVertexTagger
 JetVertexTagger* jvt;
 ```
 
-### Before the event loop
+#### Before the event loop
 Call the constructor: specify the JVT cut value and point to the JVT likelihood file
 
 ```
 jvt = new JetVertexTagger(0.2, [path-to]/JetVertexTagger/data/JVTlikelihood_20140805.root");
 ```
 
-### In the event loop
+#### In the event loop
 Initialize the tool with the list of tracks (pt, z0_wrtPV) and track-to-vertex association (vxp_trk_index). These vectors should be taken directly from the NTUP COMMON D3PD branches, but the track pT need to be converted to GeV!
 
 ```
 jvt->init(trk_pt, trk_z0_wrtPV, vxp_trk_index);
 ```
 
-### For each jet
+#### For each jet
 To check if a jet passes the JVT cut, pass the jet pT and the associated tracks to the tool. Here, assoc_trk_indices is a vector of indices corresponding to the indices of the associated tracks in the vectors trk_pt and trk_z0_wrtPV . It should be taken directly from the D3PD branch.
 
 WARNING: The indices of vxp_trk_index and assoc_trk_indices has to correspond to the ones from trk_pt and trk_z0_wrtPV!
@@ -72,10 +72,10 @@ float RpT = jvt->RpT();
 float JVT = jvt->JVT();
 ```
 
-## Test your installation!
+### Test your installation!
 We prepared a simple example explicitly implementing the steps described above based on a simple MakeClass generated on a sample D3PD file containing a few events. We recommend this example is used as a guideline of how to use the JetVertexTagger tool.
 
-### Running the example
+#### Running the example
 To run the example on all 100 events in the file mc12_8TeV.147771.Sherpa_CT10_Zmumu.merge.NTUP_COMMON.e1434_s1499_s1504_r3658_r3549_p1562.NTUP_COMMON.01313919._000880.skimmed100Events.root , do the following.
 
 ```
