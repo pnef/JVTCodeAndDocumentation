@@ -3,7 +3,10 @@ JVTCodeAndDocumentation
 
 Here you find the code and documentation of all jet-vertex tagger related things. 
 
-* [ATLAS-CONF-2014-018](ATLAS-CONF-2014-018)
-* [JVT Conf Note Plots and Macros](JVTConfNotePlots)
+* [JVT Conf Note ATLAS-CONF-2014-018: tex files and plots](ATLAS-CONF-2014-018)
+* [Macros to reproduce Conf Note plots](JVTConfNotePlots)
+* [Macros to re-derive the JVT Likelihood](JVTLikelihood)
+* [ProofAna Code to analyze NTUP_COMMON](ProofAna)
+* [JVT RootCore package](ProofAna/utils/JetVertexTagger)
 
-![Example plot] (https://raw.githubusercontent.com/pnef/JVTCodeAndDocumentation/master/JVTConfNotePlots/plots/JVT_stability_eff95.png)
+
